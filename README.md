@@ -86,7 +86,7 @@
             <h2>Contact Us</h2>
             <p>If you have any questions or would like to get in touch, feel free to contact us at:</p>
             <p>Email: <a href="mailto:hccteam51@gmail.com">hccteam51@gmail.com</a></p>
-            <p>Phone: (123) 456-7890</p>
+            <p>Phone: (639) 481-9154-74</p>
         </div>
     </div>
     <footer>
