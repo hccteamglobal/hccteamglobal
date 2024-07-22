@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -42,10 +42,27 @@
             text-align: center;
             padding: 1em 0;
         }
+        .logo {
+            max-width: 150px;
+            margin: 0 auto;
+        }
+        .photos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+            justify-content: center;
+        }
+        .photos img {
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
     <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="HCC Team Logo">
+        </div>
         <h1>HCC Team</h1>
         <p>Your Comprehensive Business Solutions Provider</p>
     </header>
@@ -149,60 +166,3 @@
                 <li>Customer Onboarding and Retention
                     <ul>
                         <li>Assisting new customers through the onboarding process</li>
-                        <li>Implementing customer retention strategies</li>
-                        <li>Managing loyalty programs</li>
-                    </ul>
-                </li>
-                <li>Customer Feedback and Surveys
-                    <ul>
-                        <li>Conducting customer satisfaction surveys</li>
-                        <li>Gathering and analyzing feedback</li>
-                        <li>Reporting insights for business improvements</li>
-                    </ul>
-                </li>
-            </ul>
-
-            <h3>Digital Marketing and E-commerce Support</h3>
-            <ul>
-                <li>E-commerce Support
-                    <ul>
-                        <li>Managing online orders and inventory</li>
-                        <li>Handling returns and exchanges</li>
-                        <li>Providing product information and support</li>
-                    </ul>
-                </li>
-                <li>Digital Marketing Assistance
-                    <ul>
-                        <li>Email marketing campaigns</li>
-                        <li>Search engine optimization (SEO)</li>
-                        <li>Content creation and management</li>
-                    </ul>
-                </li>
-            </ul>
-
-            <h3>Specialized Services</h3>
-            <ul>
-                <li>Fraud Detection and Prevention
-                    <ul>
-                        <li>Monitoring transactions for fraudulent activity</li>
-                        <li>Investigating and resolving fraud cases</li>
-                        <li>Implementing security measures</li>
-                    </ul>
-                </li>
-                <li>Quality Assurance and Compliance
-                    <ul>
-                        <li>Ensuring service quality standards</li>
-                        <li>Conducting compliance audits</li>
-                        <li>Implementing corrective actions</li>
-                    </ul>
-                </li>
-            </ul>
-
-            <p>By offering a diverse array of services, HCC Team aims to be a one-stop solution for all customer support and back-office needs, ensuring our clients can focus on their core business activities while we handle the rest.</p>
-        </div>
-    </section>
-    <footer>
-        <p>&copy; 2024 HCC Team. All rights reserved.</p>
-    </footer>
-</body>
-</html>
